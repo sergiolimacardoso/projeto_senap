@@ -1,0 +1,20 @@
+CREATE TABLE CAD_USUARIO (
+  'id' int(11) NOT NULL auto_increment,
+  'nome' text NOT NULL,
+  'SENHA' text NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=0 ;
+
+CREATE TABLE CAD_CLIENTE (
+  'id' int(11) NOT NULL auto_increment,
+  'nome' text NOT NULL,
+  'endereco' text NOT NULL,
+  'numero' int(11) NOT NULL,
+  'cidade' text NOT NULL,
+  'estado' text NOT NULL,
+  'cep' text NOT NULL,
+  'telefone' text NOT NULL,
+  'email' text NOT NULL,
+  'observacao' text NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=0 ;
